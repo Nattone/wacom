@@ -103,9 +103,10 @@ a {
     .tools svg {
         margin-left: 30px;
 
-        // &:hover {
-        //     fill: #c7b299;
-        // }
+        &:hover {
+            cursor: pointer;
+            // fill: #c7b299;
+        }
     }
 }
 
@@ -116,6 +117,7 @@ a {
     color: #fff;
     text-align: center;
     background-color: #555556;
+    background-size: cover;
     background-image: url(../img/slider-bg.png);
     display: flex;
     flex-direction: column;
