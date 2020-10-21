@@ -896,4 +896,34 @@ a {
 .footer {
   background-color: #111;
 }
+
+.footer .contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 45px 30px 52px;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.54;
+  color: #555;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer .contacts .support,
+.footer .contacts .designed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .contacts .link {
+  color: #c7b299;
+}
+
+.footer .contacts .link:hover {
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */

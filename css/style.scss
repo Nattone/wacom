@@ -825,5 +825,29 @@ a {
 
 .footer {
     background-color: #111;
-    // padding: 45px 30px 52px;
+    
+    .contacts {
+        display: flex;
+        justify-content: space-between;
+        padding: 45px 30px 52px;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 1.54;
+        color: #555;
+        font-family: 'Montserrat', sans-serif;
+
+        .support,
+        .designed {
+            display: flex;
+        }
+
+        .link {
+            color: #c7b299;
+
+            &:hover {
+                color: #fff;
+            }
+        }
+
+    }
 }
