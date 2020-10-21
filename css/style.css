@@ -371,6 +371,7 @@ a {
      object-fit: contain;
   background-color: #8c8c8c;
   width: 100%;
+  height: auto;
 }
 
 .projects .desc {
@@ -633,6 +634,7 @@ a {
      object-fit: contain;
   background-color: #777;
   width: 100%;
+  height: auto;
 }
 
 .blog .desc {
@@ -666,6 +668,48 @@ a {
 }
 
 /* partners section */
+.partners {
+  background-image: url(../img/partners-bg.png);
+  background-size: cover;
+  background-color: #404244;
+}
+
+.partners .container {
+  padding: 140px 30px;
+}
+
+.partners .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.partners .item {
+  width: 25%;
+}
+
+.partners .item + .item {
+  margin-left: 90px;
+}
+
+.partners .logo {
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease;
+  display: block;
+  margin: 0 auto;
+}
+
+.partners .logo:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 /* shortcodes */
 /* footer */
 .footer {

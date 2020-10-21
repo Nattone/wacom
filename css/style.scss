@@ -325,6 +325,7 @@ a {
             object-fit: contain;
             background-color: #8c8c8c;
             width: 100%;
+            height: auto;
         }
     }
 
@@ -572,6 +573,7 @@ a {
             object-fit: contain;
             background-color: #777;
             width: 100%;
+            height: auto;
         }
     }
 
@@ -607,6 +609,40 @@ a {
 }
 
 /* partners section */
+
+.partners {
+    background-image: url(../img/partners-bg.png);
+    background-size: cover;
+    background-color: #404244;
+
+    .container {
+        padding: 140px 30px;
+    }
+
+    .list {
+        display: flex;
+        align-items: center;
+    }
+
+    .item {
+        width: 25%;
+
+        + .item {
+            margin-left: 90px;
+        }
+    }
+
+    .logo {
+        transition: transform .3s ease;
+        display: block;
+        margin: 0 auto;
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+    }
+}
 
 /* shortcodes */
 
