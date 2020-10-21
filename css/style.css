@@ -103,18 +103,22 @@ a {
           align-items: center;
 }
 
-.header .nav .link {
+.header .menu .link {
   font-family: 'Montserrat', sans-serif;
   color: #fff;
   margin-right: 30px;
 }
 
-.header .nav .link:hover {
+.header .menu .link:hover {
   color: #c7b299;
 }
 
 .header .tools svg {
   margin-left: 30px;
+}
+
+.header .tools svg:hover {
+  cursor: pointer;
 }
 
 .slider {
@@ -125,6 +129,7 @@ a {
   color: #fff;
   text-align: center;
   background-color: #555556;
+  background-size: cover;
   background-image: url(../img/slider-bg.png);
   display: -webkit-box;
   display: -ms-flexbox;
