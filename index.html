@@ -6,22 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wacom</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/svg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 </head>
 
 <body>
     <div class="opening">
         <header id="home" class="header">
             <div class="container">
-                <div class="logo">
-                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="180.656"
-                        height="55.125" viewBox="0 0 180.656 55.125">
-                        <path id="logos" class="cls-1"
-                            d="M413.108,50.713H402.6l5.254,9.191Zm-11.822.767-5.254,9.191H406.54Zm18.39,9.191-5.254-9.191-5.254,9.191h10.508ZM409.168,62.2l5.254,9.188,5.254-9.188H409.168Zm-13.136,0,5.254,9.188L406.54,62.2H396.032Zm-6.567,9.952h10.506l-5.253-9.187Zm36.778,0-5.253-9.187-5.252,9.187h10.5Zm-18.389-32.16-5.254,9.19h10.508ZM420.99,82.874l5.253-9.188h-10.5Zm-26.272,0,5.253-9.188H389.465Zm-11.821.767H393.4l-5.253-9.19Zm49.914,0-5.254-9.19-5.254,9.19h10.508ZM422.3,85.172l5.254,9.187,5.254-9.187H422.3Zm-13.135,0,5.254,9.187,5.254-9.187H409.168Zm-21.017,9.187,5.253-9.187H382.9Zm-11.82.769h10.5l-5.254-9.188Zm26.269,0h10.508l-5.254-9.188Zm13.138,0h10.5l-5.253-9.188Zm18.387-9.188-5.252,9.188h10.5Z"
-                            transform="translate(-376.344 -40)" />
-                        <text id="Waxom" class="cls-2" x="182.656" y="40">Waxom</text>
-                    </svg>
+                <div class="mobile-wrapper">
+                    <div class="mobile">
+                        <span class="mobile-menu"></span>
+                    </div>
+                    <div class="logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="180.656" height="55.125" viewBox="0 0 180.656 55.125">
+                            <path class="cls-1"
+                                d="M413.108,50.713H402.6l5.254,9.191Zm-11.822.767-5.254,9.191H406.54Zm18.39,9.191-5.254-9.191-5.254,9.191h10.508ZM409.168,62.2l5.254,9.188,5.254-9.188H409.168Zm-13.136,0,5.254,9.188L406.54,62.2H396.032Zm-6.567,9.952h10.506l-5.253-9.187Zm36.778,0-5.253-9.187-5.252,9.187h10.5Zm-18.389-32.16-5.254,9.19h10.508ZM420.99,82.874l5.253-9.188h-10.5Zm-26.272,0,5.253-9.188H389.465Zm-11.821.767H393.4l-5.253-9.19Zm49.914,0-5.254-9.19-5.254,9.19h10.508ZM422.3,85.172l5.254,9.187,5.254-9.187H422.3Zm-13.135,0,5.254,9.187,5.254-9.187H409.168Zm-21.017,9.187,5.253-9.187H382.9Zm-11.82.769h10.5l-5.254-9.188Zm26.269,0h10.508l-5.254-9.188Zm13.138,0h10.5l-5.253-9.188Zm18.387-9.188-5.252,9.188h10.5Z"
+                                transform="translate(-376.344 -40)" />
+                            <text class="cls-2" x="182.656" y="40">Waxom</text>
+                        </svg>
+                    </div>
                 </div>
                 <div class="wrapper">
                     <ul class="menu">
@@ -66,24 +73,42 @@
             </div>
         </header>
         <div class="slider">
-            <div class="content">
-                <p class="pretitle">Unique and Modern Design</p>
-                <h1 class="main-title">Portfolio PSD Template</h1>
-                <p class="text">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod
-                    mazim placerat facer possim assum.</p>
-                <button class="btn">Get started</button>
+            <div class="container">
+                <div class="content">
+                    <p class="pretitle">Unique and Modern Design</p>
+                    <h1 class="main-title">Portfolio PSD Template</h1>
+                    <p class="text">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id
+                        quod mazim placerat facer possim assum.</p>
+                    <button class="btn">Get started</button>
+                </div>
+                <div class="controls">
+                    <button class="arrow"><svg xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="73px">
+                            <path
+                                d="M38.026,72.979 L0.005,36.498 L38.026,0.018 L39.995,2.022 L4.066,36.498 L39.995,70.977 L38.026,72.979 Z" />
+                        </svg>
+                    </button>
+                    <button class="arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px"
+                            height="73px">
+                            <path
+                                d="M1.974,72.979 L39.995,36.498 L1.974,0.018 L0.005,2.022 L35.934,36.498 L0.005,70.977 L1.974,72.979 Z" />
+                        </svg>
+                    </button>
+                </div>
+
             </div>
         </div>
     </div>
     <main>
         <section class="about-us container" id="about-us">
-            <h2 style="visibility: hidden;"></h2>
+            <h2 style="visibility: hidden;" class="empty">empty</h2>
             <ul class="list">
                 <li class="item">
                     <div class="icon">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                             width="47.594" height="47.59" viewBox="0 0 47.594 47.59">
-                            <path id="icon" class="cls-1"
+                            <path class="cls-1"
                                 d="M534.668,1121.47a1.591,1.591,0,0,0-2.248,0l-13.847,13.84-19.467,8.58-3-3,8.576-19.47,13.844-13.84a1.59,1.59,0,0,0-2.248-2.25l-14.268,14.26-14.477,32.87,32.868-14.47,14.266-14.27A1.592,1.592,0,0,0,534.668,1121.47Zm-20.173,11a1.606,1.606,0,0,0,2.25,0l13.332-13.34a1.591,1.591,0,0,0-2.25-2.25L514.5,1130.22A1.593,1.593,0,0,0,514.5,1132.47Zm-3.48-3.48a1.606,1.606,0,0,0,2.25,0l13.333-13.34a1.591,1.591,0,0,0-2.25-2.25l-13.333,13.33A1.6,1.6,0,0,0,511.015,1128.99Zm-3.481-3.49a1.581,1.581,0,0,0,2.25,0l13.333-13.33a1.591,1.591,0,0,0-2.25-2.25l-13.333,13.33A1.593,1.593,0,0,0,507.534,1125.5Z"
                                 transform="translate(-487.531 -1104.88)" />
                         </svg>
@@ -97,7 +122,7 @@
                     <div class="icon">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                             width="42.875" height="39.19" viewBox="0 0 42.875 39.19">
-                            <path id="icon" class="cls-1"
+                            <path class="cls-1"
                                 d="M811.851,1113.11l-21.437,11.56,21.437,11.56,21.436-11.56Zm0,26.85-17.452-9.41-3.985,2.15,21.437,11.55,21.436-11.55-3.985-2.15Zm0,8.02-17.452-9.41-3.985,2.15,21.437,11.56,21.436-11.56-3.985-2.15Z"
                                 transform="translate(-790.406 -1113.09)" />
                         </svg>
@@ -112,7 +137,7 @@
                     <div class="icon">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="43.56"
                             height="43.56" viewBox="0 0 43.56 43.56">
-                            <path id="icon" class="cls-1"
+                            <path class="cls-1"
                                 d="M1132.93,1129.85a4.327,4.327,0,0,0-2.61-3.86,4.623,4.623,0,0,1-2.88-6.97,4.161,4.161,0,0,0-5.46-5.46,6.019,6.019,0,0,1-4.23.35,5.937,5.937,0,0,1-2.74-3.24,4.173,4.173,0,0,0-7.73,0,4.634,4.634,0,0,1-6.97,2.89,4.161,4.161,0,0,0-5.46,5.46,4.636,4.636,0,0,1-2.88,6.97,4.159,4.159,0,0,0,0,7.72,4.623,4.623,0,0,1,2.88,6.97,4.161,4.161,0,0,0,5.46,5.46,4.634,4.634,0,0,1,6.97,2.89,4.173,4.173,0,0,0,7.73,0,4.628,4.628,0,0,1,6.97-2.89,4.161,4.161,0,0,0,5.46-5.46,4.623,4.623,0,0,1,2.88-6.97A4.327,4.327,0,0,0,1132.93,1129.85Zm-21.79,7.99a7.985,7.985,0,1,1,7.99-7.98A7.979,7.979,0,0,1,1111.14,1137.84Z"
                                 transform="translate(-1089.38 -1108.06)" />
                         </svg>
@@ -127,7 +152,7 @@
                     <div class="icon">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50.87"
                             height="35.63" viewBox="0 0 50.87 35.63">
-                            <path id="icon" class="cls-1"
+                            <path class="cls-1"
                                 d="M1397,1129.25a6.787,6.787,0,0,1,5.74-3.61h26.21v-1.66a2.482,2.482,0,0,0-2.46-2.48h-10.82v-1.44a3.707,3.707,0,0,0-3.68-3.73h-6.29a3.722,3.722,0,0,0-3.69,3.73v1.44H1391.2a2.475,2.475,0,0,0-2.46,2.48v22.17Zm7.47-9.19a1.266,1.266,0,0,1,.36-0.88,1.185,1.185,0,0,1,.87-0.36h6.29a1.231,1.231,0,0,1,1.23,1.24v1.44h-8.75v-1.44Zm25.45,29.7a4.319,4.319,0,0,1-3.54,2.22h-35.3a1.417,1.417,0,0,1-1.37-2.22l9.49-19.42a4.333,4.333,0,0,1,3.54-2.22h35.3a1.417,1.417,0,0,1,1.37,2.22Z"
                                 transform="translate(-1388.75 -1116.34)" />
                         </svg>
@@ -145,6 +170,7 @@
                 <h2 class="title">Waxom is Realization of your Ideas.</h2>
                 <p class="text">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas
                     est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                <img src="img/portfolio-img.png" alt="sites" class="portfolio-img">
             </div>
         </section>
         <aside class="commercial">
@@ -167,9 +193,28 @@
                 <button class="switch">Illustration</button>
                 <button class="switch">Photography</button>
             </div>
-            <ul class="list">
+            <ul class="list cards">
                 <li class="item">
-                    <img src="img/project-1.png" height="230" alt="phone" class="item-img">
+                    <a href="#" class="link"></a>
+                    <div class="wrapper">
+                        <img src="img/project-1.png" height="230" alt="phone" class="item-img">
+                        <div class="icons">
+                            <a href="#" class="similar">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="26px" height="26px">
+                                    <path
+                                        d="M23.499,11.242 L21.573,13.170 L18.386,16.359 C18.233,16.529 18.045,16.683 17.875,16.819 C16.102,18.217 13.750,18.524 11.722,17.724 C10.972,17.433 10.256,16.973 9.643,16.359 L12.284,13.715 C13.239,14.670 14.790,14.670 15.744,13.715 L17.772,11.686 L20.857,8.599 C21.812,7.644 21.812,6.091 20.857,5.137 C19.903,4.182 18.352,4.182 17.397,5.137 L14.943,7.593 C13.409,6.877 11.654,6.757 10.035,7.217 L14.756,2.494 C17.159,0.089 21.096,0.089 23.499,2.494 C25.919,4.915 25.919,8.837 23.499,11.242 ZM14.262,8.293 C15.011,8.582 15.727,9.042 16.341,9.656 L13.699,12.301 C12.745,11.345 11.194,11.345 10.239,12.301 L5.126,17.416 C4.171,18.372 4.171,19.922 5.126,20.878 C6.080,21.834 7.631,21.834 8.586,20.878 L10.938,18.524 C12.949,19.327 13.495,19.394 15.846,18.849 L11.228,23.521 C8.825,25.927 4.887,25.927 2.484,23.521 C0.081,21.117 0.081,17.178 2.484,14.774 L7.597,9.656 C7.665,9.589 7.751,9.503 7.836,9.435 C9.625,7.831 12.131,7.439 14.262,8.293 Z" />
+                                </svg>
+                            </a>
+                            <a href="#" class="search">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="26px" height="25px">
+                                    <path
+                                        d="M25.456,24.172 C25.135,24.489 24.714,24.646 24.293,24.646 C23.873,24.646 23.451,24.489 23.130,24.172 L18.795,19.901 C16.902,21.348 14.535,22.218 11.959,22.218 C5.793,22.218 0.777,17.276 0.777,11.202 C0.777,5.128 5.793,0.186 11.959,0.186 C18.125,0.186 23.141,5.128 23.141,11.202 C23.141,13.572 22.370,15.764 21.073,17.563 L25.456,21.881 C26.098,22.514 26.098,23.540 25.456,24.172 ZM11.960,2.778 C7.245,2.778 3.409,6.557 3.409,11.202 C3.409,15.847 7.245,19.626 11.960,19.627 C14.064,19.627 15.990,18.871 17.481,17.624 C17.941,17.240 18.355,16.805 18.724,16.336 C19.840,14.913 20.510,13.135 20.510,11.202 C20.510,6.557 16.674,2.778 11.960,2.778 ZM16.810,9.581 C16.625,9.668 16.429,9.711 16.234,9.711 C15.747,9.711 15.280,9.444 15.052,8.983 C14.347,7.559 12.911,6.674 11.304,6.674 C10.578,6.674 9.989,6.094 9.989,5.377 C9.989,4.663 10.578,4.082 11.304,4.082 C13.925,4.082 16.268,5.525 17.417,7.847 C17.735,8.491 17.464,9.267 16.810,9.581 Z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
                     <div class="desc">
                         <h3 class="heading">Claritas Etiam Processus</h3>
                         <div class="tags">
@@ -179,7 +224,26 @@
                     </div>
                 </li>
                 <li class="item">
-                    <img src="img/project-2.png" height="230" alt="mountain" class="item-img">
+                    <a href="#" class="link"></a>
+                    <div class="wrapper">
+                        <img src="img/project-2.png" height="230" alt="mountain" class="item-img">
+                        <div class="icons">
+                            <a href="#" class="similar">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="26px" height="26px">
+                                    <path
+                                        d="M23.499,11.242 L21.573,13.170 L18.386,16.359 C18.233,16.529 18.045,16.683 17.875,16.819 C16.102,18.217 13.750,18.524 11.722,17.724 C10.972,17.433 10.256,16.973 9.643,16.359 L12.284,13.715 C13.239,14.670 14.790,14.670 15.744,13.715 L17.772,11.686 L20.857,8.599 C21.812,7.644 21.812,6.091 20.857,5.137 C19.903,4.182 18.352,4.182 17.397,5.137 L14.943,7.593 C13.409,6.877 11.654,6.757 10.035,7.217 L14.756,2.494 C17.159,0.089 21.096,0.089 23.499,2.494 C25.919,4.915 25.919,8.837 23.499,11.242 ZM14.262,8.293 C15.011,8.582 15.727,9.042 16.341,9.656 L13.699,12.301 C12.745,11.345 11.194,11.345 10.239,12.301 L5.126,17.416 C4.171,18.372 4.171,19.922 5.126,20.878 C6.080,21.834 7.631,21.834 8.586,20.878 L10.938,18.524 C12.949,19.327 13.495,19.394 15.846,18.849 L11.228,23.521 C8.825,25.927 4.887,25.927 2.484,23.521 C0.081,21.117 0.081,17.178 2.484,14.774 L7.597,9.656 C7.665,9.589 7.751,9.503 7.836,9.435 C9.625,7.831 12.131,7.439 14.262,8.293 Z" />
+                                </svg>
+                            </a>
+                            <a href="#" class="search">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="26px" height="25px">
+                                    <path
+                                        d="M25.456,24.172 C25.135,24.489 24.714,24.646 24.293,24.646 C23.873,24.646 23.451,24.489 23.130,24.172 L18.795,19.901 C16.902,21.348 14.535,22.218 11.959,22.218 C5.793,22.218 0.777,17.276 0.777,11.202 C0.777,5.128 5.793,0.186 11.959,0.186 C18.125,0.186 23.141,5.128 23.141,11.202 C23.141,13.572 22.370,15.764 21.073,17.563 L25.456,21.881 C26.098,22.514 26.098,23.540 25.456,24.172 ZM11.960,2.778 C7.245,2.778 3.409,6.557 3.409,11.202 C3.409,15.847 7.245,19.626 11.960,19.627 C14.064,19.627 15.990,18.871 17.481,17.624 C17.941,17.240 18.355,16.805 18.724,16.336 C19.840,14.913 20.510,13.135 20.510,11.202 C20.510,6.557 16.674,2.778 11.960,2.778 ZM16.810,9.581 C16.625,9.668 16.429,9.711 16.234,9.711 C15.747,9.711 15.280,9.444 15.052,8.983 C14.347,7.559 12.911,6.674 11.304,6.674 C10.578,6.674 9.989,6.094 9.989,5.377 C9.989,4.663 10.578,4.082 11.304,4.082 C13.925,4.082 16.268,5.525 17.417,7.847 C17.735,8.491 17.464,9.267 16.810,9.581 Z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
                     <div class="desc">
                         <h3 class="heading">Quam Nutamus Farum</h3>
                         <div class="tags">
@@ -189,7 +253,26 @@
                     </div>
                 </li>
                 <li class="item">
-                    <img src="img/project-3.png" height="230" alt="book" class="item-img">
+                    <a href="#" class="link"></a>
+                    <div class="wrapper">
+                        <img src="img/project-3.png" height="230" alt="book" class="item-img">
+                        <div class="icons">
+                            <a href="#" class="similar">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="26px" height="26px">
+                                    <path
+                                        d="M23.499,11.242 L21.573,13.170 L18.386,16.359 C18.233,16.529 18.045,16.683 17.875,16.819 C16.102,18.217 13.750,18.524 11.722,17.724 C10.972,17.433 10.256,16.973 9.643,16.359 L12.284,13.715 C13.239,14.670 14.790,14.670 15.744,13.715 L17.772,11.686 L20.857,8.599 C21.812,7.644 21.812,6.091 20.857,5.137 C19.903,4.182 18.352,4.182 17.397,5.137 L14.943,7.593 C13.409,6.877 11.654,6.757 10.035,7.217 L14.756,2.494 C17.159,0.089 21.096,0.089 23.499,2.494 C25.919,4.915 25.919,8.837 23.499,11.242 ZM14.262,8.293 C15.011,8.582 15.727,9.042 16.341,9.656 L13.699,12.301 C12.745,11.345 11.194,11.345 10.239,12.301 L5.126,17.416 C4.171,18.372 4.171,19.922 5.126,20.878 C6.080,21.834 7.631,21.834 8.586,20.878 L10.938,18.524 C12.949,19.327 13.495,19.394 15.846,18.849 L11.228,23.521 C8.825,25.927 4.887,25.927 2.484,23.521 C0.081,21.117 0.081,17.178 2.484,14.774 L7.597,9.656 C7.665,9.589 7.751,9.503 7.836,9.435 C9.625,7.831 12.131,7.439 14.262,8.293 Z" />
+                                </svg>
+                            </a>
+                            <a href="#" class="search">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="26px" height="25px">
+                                    <path
+                                        d="M25.456,24.172 C25.135,24.489 24.714,24.646 24.293,24.646 C23.873,24.646 23.451,24.489 23.130,24.172 L18.795,19.901 C16.902,21.348 14.535,22.218 11.959,22.218 C5.793,22.218 0.777,17.276 0.777,11.202 C0.777,5.128 5.793,0.186 11.959,0.186 C18.125,0.186 23.141,5.128 23.141,11.202 C23.141,13.572 22.370,15.764 21.073,17.563 L25.456,21.881 C26.098,22.514 26.098,23.540 25.456,24.172 ZM11.960,2.778 C7.245,2.778 3.409,6.557 3.409,11.202 C3.409,15.847 7.245,19.626 11.960,19.627 C14.064,19.627 15.990,18.871 17.481,17.624 C17.941,17.240 18.355,16.805 18.724,16.336 C19.840,14.913 20.510,13.135 20.510,11.202 C20.510,6.557 16.674,2.778 11.960,2.778 ZM16.810,9.581 C16.625,9.668 16.429,9.711 16.234,9.711 C15.747,9.711 15.280,9.444 15.052,8.983 C14.347,7.559 12.911,6.674 11.304,6.674 C10.578,6.674 9.989,6.094 9.989,5.377 C9.989,4.663 10.578,4.082 11.304,4.082 C13.925,4.082 16.268,5.525 17.417,7.847 C17.735,8.491 17.464,9.267 16.810,9.581 Z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
                     <div class="desc">
                         <h3 class="heading">Usus Legentis Videntur</h3>
                         <div class="tags">
@@ -199,7 +282,26 @@
                     </div>
                 </li>
                 <li class="item">
-                    <img src="img/project-4.png" height="230" alt="birds" class="item-img">
+                    <a href="#" class="link"></a>
+                    <div class="wrapper">
+                        <img src="img/project-4.png" height="230" alt="birds" class="item-img">
+                        <div class="icons">
+                            <a href="#" class="similar">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="26px" height="26px">
+                                    <path
+                                        d="M23.499,11.242 L21.573,13.170 L18.386,16.359 C18.233,16.529 18.045,16.683 17.875,16.819 C16.102,18.217 13.750,18.524 11.722,17.724 C10.972,17.433 10.256,16.973 9.643,16.359 L12.284,13.715 C13.239,14.670 14.790,14.670 15.744,13.715 L17.772,11.686 L20.857,8.599 C21.812,7.644 21.812,6.091 20.857,5.137 C19.903,4.182 18.352,4.182 17.397,5.137 L14.943,7.593 C13.409,6.877 11.654,6.757 10.035,7.217 L14.756,2.494 C17.159,0.089 21.096,0.089 23.499,2.494 C25.919,4.915 25.919,8.837 23.499,11.242 ZM14.262,8.293 C15.011,8.582 15.727,9.042 16.341,9.656 L13.699,12.301 C12.745,11.345 11.194,11.345 10.239,12.301 L5.126,17.416 C4.171,18.372 4.171,19.922 5.126,20.878 C6.080,21.834 7.631,21.834 8.586,20.878 L10.938,18.524 C12.949,19.327 13.495,19.394 15.846,18.849 L11.228,23.521 C8.825,25.927 4.887,25.927 2.484,23.521 C0.081,21.117 0.081,17.178 2.484,14.774 L7.597,9.656 C7.665,9.589 7.751,9.503 7.836,9.435 C9.625,7.831 12.131,7.439 14.262,8.293 Z" />
+                                </svg>
+                            </a>
+                            <a href="#" class="search">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="26px" height="25px">
+                                    <path
+                                        d="M25.456,24.172 C25.135,24.489 24.714,24.646 24.293,24.646 C23.873,24.646 23.451,24.489 23.130,24.172 L18.795,19.901 C16.902,21.348 14.535,22.218 11.959,22.218 C5.793,22.218 0.777,17.276 0.777,11.202 C0.777,5.128 5.793,0.186 11.959,0.186 C18.125,0.186 23.141,5.128 23.141,11.202 C23.141,13.572 22.370,15.764 21.073,17.563 L25.456,21.881 C26.098,22.514 26.098,23.540 25.456,24.172 ZM11.960,2.778 C7.245,2.778 3.409,6.557 3.409,11.202 C3.409,15.847 7.245,19.626 11.960,19.627 C14.064,19.627 15.990,18.871 17.481,17.624 C17.941,17.240 18.355,16.805 18.724,16.336 C19.840,14.913 20.510,13.135 20.510,11.202 C20.510,6.557 16.674,2.778 11.960,2.778 ZM16.810,9.581 C16.625,9.668 16.429,9.711 16.234,9.711 C15.747,9.711 15.280,9.444 15.052,8.983 C14.347,7.559 12.911,6.674 11.304,6.674 C10.578,6.674 9.989,6.094 9.989,5.377 C9.989,4.663 10.578,4.082 11.304,4.082 C13.925,4.082 16.268,5.525 17.417,7.847 C17.735,8.491 17.464,9.267 16.810,9.581 Z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
                     <div class="desc">
                         <h3 class="heading">Claritas Etiam Processus</h3>
                         <div class="tags">
@@ -209,7 +311,26 @@
                     </div>
                 </li>
                 <li class="item">
-                    <img src="img/project-5.png" height="230" alt="magazine" class="item-img">
+                    <a href="#" class="link"></a>
+                    <div class="wrapper">
+                        <img src="img/project-5.png" height="230" alt="magazine" class="item-img">
+                        <div class="icons">
+                            <a href="#" class="similar">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="26px" height="26px">
+                                    <path
+                                        d="M23.499,11.242 L21.573,13.170 L18.386,16.359 C18.233,16.529 18.045,16.683 17.875,16.819 C16.102,18.217 13.750,18.524 11.722,17.724 C10.972,17.433 10.256,16.973 9.643,16.359 L12.284,13.715 C13.239,14.670 14.790,14.670 15.744,13.715 L17.772,11.686 L20.857,8.599 C21.812,7.644 21.812,6.091 20.857,5.137 C19.903,4.182 18.352,4.182 17.397,5.137 L14.943,7.593 C13.409,6.877 11.654,6.757 10.035,7.217 L14.756,2.494 C17.159,0.089 21.096,0.089 23.499,2.494 C25.919,4.915 25.919,8.837 23.499,11.242 ZM14.262,8.293 C15.011,8.582 15.727,9.042 16.341,9.656 L13.699,12.301 C12.745,11.345 11.194,11.345 10.239,12.301 L5.126,17.416 C4.171,18.372 4.171,19.922 5.126,20.878 C6.080,21.834 7.631,21.834 8.586,20.878 L10.938,18.524 C12.949,19.327 13.495,19.394 15.846,18.849 L11.228,23.521 C8.825,25.927 4.887,25.927 2.484,23.521 C0.081,21.117 0.081,17.178 2.484,14.774 L7.597,9.656 C7.665,9.589 7.751,9.503 7.836,9.435 C9.625,7.831 12.131,7.439 14.262,8.293 Z" />
+                                </svg>
+                            </a>
+                            <a href="#" class="search">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="26px" height="25px">
+                                    <path
+                                        d="M25.456,24.172 C25.135,24.489 24.714,24.646 24.293,24.646 C23.873,24.646 23.451,24.489 23.130,24.172 L18.795,19.901 C16.902,21.348 14.535,22.218 11.959,22.218 C5.793,22.218 0.777,17.276 0.777,11.202 C0.777,5.128 5.793,0.186 11.959,0.186 C18.125,0.186 23.141,5.128 23.141,11.202 C23.141,13.572 22.370,15.764 21.073,17.563 L25.456,21.881 C26.098,22.514 26.098,23.540 25.456,24.172 ZM11.960,2.778 C7.245,2.778 3.409,6.557 3.409,11.202 C3.409,15.847 7.245,19.626 11.960,19.627 C14.064,19.627 15.990,18.871 17.481,17.624 C17.941,17.240 18.355,16.805 18.724,16.336 C19.840,14.913 20.510,13.135 20.510,11.202 C20.510,6.557 16.674,2.778 11.960,2.778 ZM16.810,9.581 C16.625,9.668 16.429,9.711 16.234,9.711 C15.747,9.711 15.280,9.444 15.052,8.983 C14.347,7.559 12.911,6.674 11.304,6.674 C10.578,6.674 9.989,6.094 9.989,5.377 C9.989,4.663 10.578,4.082 11.304,4.082 C13.925,4.082 16.268,5.525 17.417,7.847 C17.735,8.491 17.464,9.267 16.810,9.581 Z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
                     <div class="desc">
                         <h3 class="heading">Quam Nutamus Farum</h3>
                         <div class="tags">
@@ -219,7 +340,26 @@
                     </div>
                 </li>
                 <li class="item">
-                    <img src="img/project-6.png" height="230" alt="break" class="item-img">
+                    <a href="#" class="link"></a>
+                    <div class="wrapper">
+                        <img src="img/project-6.png" height="230" alt="break" class="item-img">
+                        <div class="icons">
+                            <a href="#" class="similar">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="26px" height="26px">
+                                    <path
+                                        d="M23.499,11.242 L21.573,13.170 L18.386,16.359 C18.233,16.529 18.045,16.683 17.875,16.819 C16.102,18.217 13.750,18.524 11.722,17.724 C10.972,17.433 10.256,16.973 9.643,16.359 L12.284,13.715 C13.239,14.670 14.790,14.670 15.744,13.715 L17.772,11.686 L20.857,8.599 C21.812,7.644 21.812,6.091 20.857,5.137 C19.903,4.182 18.352,4.182 17.397,5.137 L14.943,7.593 C13.409,6.877 11.654,6.757 10.035,7.217 L14.756,2.494 C17.159,0.089 21.096,0.089 23.499,2.494 C25.919,4.915 25.919,8.837 23.499,11.242 ZM14.262,8.293 C15.011,8.582 15.727,9.042 16.341,9.656 L13.699,12.301 C12.745,11.345 11.194,11.345 10.239,12.301 L5.126,17.416 C4.171,18.372 4.171,19.922 5.126,20.878 C6.080,21.834 7.631,21.834 8.586,20.878 L10.938,18.524 C12.949,19.327 13.495,19.394 15.846,18.849 L11.228,23.521 C8.825,25.927 4.887,25.927 2.484,23.521 C0.081,21.117 0.081,17.178 2.484,14.774 L7.597,9.656 C7.665,9.589 7.751,9.503 7.836,9.435 C9.625,7.831 12.131,7.439 14.262,8.293 Z" />
+                                </svg>
+                            </a>
+                            <a href="#" class="search">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="26px" height="25px">
+                                    <path
+                                        d="M25.456,24.172 C25.135,24.489 24.714,24.646 24.293,24.646 C23.873,24.646 23.451,24.489 23.130,24.172 L18.795,19.901 C16.902,21.348 14.535,22.218 11.959,22.218 C5.793,22.218 0.777,17.276 0.777,11.202 C0.777,5.128 5.793,0.186 11.959,0.186 C18.125,0.186 23.141,5.128 23.141,11.202 C23.141,13.572 22.370,15.764 21.073,17.563 L25.456,21.881 C26.098,22.514 26.098,23.540 25.456,24.172 ZM11.960,2.778 C7.245,2.778 3.409,6.557 3.409,11.202 C3.409,15.847 7.245,19.626 11.960,19.627 C14.064,19.627 15.990,18.871 17.481,17.624 C17.941,17.240 18.355,16.805 18.724,16.336 C19.840,14.913 20.510,13.135 20.510,11.202 C20.510,6.557 16.674,2.778 11.960,2.778 ZM16.810,9.581 C16.625,9.668 16.429,9.711 16.234,9.711 C15.747,9.711 15.280,9.444 15.052,8.983 C14.347,7.559 12.911,6.674 11.304,6.674 C10.578,6.674 9.989,6.094 9.989,5.377 C9.989,4.663 10.578,4.082 11.304,4.082 C13.925,4.082 16.268,5.525 17.417,7.847 C17.735,8.491 17.464,9.267 16.810,9.581 Z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
                     <div class="desc">
                         <h3 class="heading">Usus Legentis Videntur</h3>
                         <div class="tags">
@@ -247,7 +387,7 @@
                     <p class="time">03:26</p>
                 </div>
             </div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/LnoumTpLMfk" frameborder="0"
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/LnoumTpLMfk"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
         </section>
@@ -270,7 +410,7 @@
         </section>
         <section class="counter" id="counter">
             <div class="container">
-                <h2 style="visibility: hidden;"></h2>
+                <h2 style="visibility: hidden;" class="empty">empty</h2>
                 <ul class="list">
                     <li class="item">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44px"
@@ -325,39 +465,78 @@
             <h2 class="title">Recent Posts.</h2>
             <p class="text">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est
                 etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
-            <ul class="list">
+            <ul class="list cards">
                 <li class="item">
-                    <img src="img/blog-1.png" height="212" alt="legs" class="item-img">
+                    <a href="#" class="link"></a>
+                    <div class="wrapper">
+                        <div class="date">
+                            <div class="day">30</div>
+                            <div class="month">Sep.</div>
+                        </div>
+                        <img src="img/blog-1.png" height="212" alt="legs" class="item-img">
+                    </div>
                     <div class="desc">
                         <h3 class="heading">Lorem ipsum dolor sit amet</h3>
-                        <p class="excerpt">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.
+                        <p class="excerpt">Claritas est etiam processus dynamicus, qui sequitur mutationem
+                            consuetudium.
                         </p>
-                        <div class="more">Read More</div>
+                        <a href="#" class="more">Read More</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="5px"
+                            height="8px">
+                            <path
+                                d="M0.951,7.815 L4.786,4.348 C4.999,4.155 4.999,3.841 4.786,3.648 L4.765,3.637 L0.951,0.178 C0.737,-0.015 0.388,-0.015 0.174,0.178 L0.170,0.184 C0.068,0.274 0.003,0.398 0.003,0.538 L0.003,7.455 C0.003,7.597 0.071,7.724 0.176,7.814 L0.174,7.815 C0.390,8.008 0.737,8.008 0.951,7.815 Z" />
+                        </svg>
                     </div>
                 </li>
                 <li class="item">
-                    <img src="img/blog-2.png" height="212" alt="ship" class="item-img">
+                    <a href="#" class="link"></a>
+                    <div class="wrapper">
+                        <div class="date">
+                            <div class="day">30</div>
+                            <div class="month">Sep.</div>
+                        </div>
+                        <img src="img/blog-2.png" height="212" alt="ship" class="item-img">
+                    </div>
                     <div class="desc">
                         <h3 class="heading">Lorem ipsum dolor sit amet</h3>
-                        <p class="excerpt">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.
+                        <p class="excerpt">Claritas est etiam processus dynamicus, qui sequitur mutationem
+                            consuetudium.
                         </p>
-                        <div class="more">Read More</div>
+                        <a href="#" class="more">Read More</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="5px"
+                            height="8px">
+                            <path
+                                d="M0.951,7.815 L4.786,4.348 C4.999,4.155 4.999,3.841 4.786,3.648 L4.765,3.637 L0.951,0.178 C0.737,-0.015 0.388,-0.015 0.174,0.178 L0.170,0.184 C0.068,0.274 0.003,0.398 0.003,0.538 L0.003,7.455 C0.003,7.597 0.071,7.724 0.176,7.814 L0.174,7.815 C0.390,8.008 0.737,8.008 0.951,7.815 Z" />
+                        </svg>
                     </div>
                 </li>
                 <li class="item">
-                    <img src="img/blog-3.png" height="212" alt="notebook" class="item-img">
+                    <a href="#" class="link"></a>
+                    <div class="wrapper">
+                        <div class="date">
+                            <div class="day">30</div>
+                            <div class="month">Sep.</div>
+                        </div>
+                        <img src="img/blog-3.png" height="212" alt="notebook" class="item-img">
+                    </div>
                     <div class="desc">
                         <h3 class="heading">Lorem ipsum dolor sit amet</h3>
-                        <p class="excerpt">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.
+                        <p class="excerpt">Claritas est etiam processus dynamicus, qui sequitur mutationem
+                            consuetudium.
                         </p>
-                        <div class="more">Read More</div>
+                        <a href="#" class="more">Read More</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="5px"
+                            height="8px">
+                            <path
+                                d="M0.951,7.815 L4.786,4.348 C4.999,4.155 4.999,3.841 4.786,3.648 L4.765,3.637 L0.951,0.178 C0.737,-0.015 0.388,-0.015 0.174,0.178 L0.170,0.184 C0.068,0.274 0.003,0.398 0.003,0.538 L0.003,7.455 C0.003,7.597 0.071,7.724 0.176,7.814 L0.174,7.815 C0.390,8.008 0.737,8.008 0.951,7.815 Z" />
+                        </svg>
                     </div>
                 </li>
             </ul>
         </section>
         <section class="partners">
             <div class="container">
-                <h2 style="visibility: hidden;"></h2>
+                <h2 style="visibility: hidden;" class="empty">empty</h2>
                 <ul class="list">
                     <li class="item">
                         <a href="#" class="logo">
@@ -383,7 +562,7 @@
             </div>
         </section>
     </main>
-    <footer class="footer" id="footer">
+    <footer class="footer">
         <div class="shortcodes" id="shortcodes">
             <div class="container">
                 <div class="cols">
@@ -391,10 +570,10 @@
                         <div class="logo">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                 width="180.656" height="55.125" viewBox="0 0 180.656 55.125">
-                                <path id="logos" class="cls-1"
+                                <path class="cls-1"
                                     d="M413.108,50.713H402.6l5.254,9.191Zm-11.822.767-5.254,9.191H406.54Zm18.39,9.191-5.254-9.191-5.254,9.191h10.508ZM409.168,62.2l5.254,9.188,5.254-9.188H409.168Zm-13.136,0,5.254,9.188L406.54,62.2H396.032Zm-6.567,9.952h10.506l-5.253-9.187Zm36.778,0-5.253-9.187-5.252,9.187h10.5Zm-18.389-32.16-5.254,9.19h10.508ZM420.99,82.874l5.253-9.188h-10.5Zm-26.272,0,5.253-9.188H389.465Zm-11.821.767H393.4l-5.253-9.19Zm49.914,0-5.254-9.19-5.254,9.19h10.508ZM422.3,85.172l5.254,9.187,5.254-9.187H422.3Zm-13.135,0,5.254,9.187,5.254-9.187H409.168Zm-21.017,9.187,5.253-9.187H382.9Zm-11.82.769h10.5l-5.254-9.188Zm26.269,0h10.508l-5.254-9.188Zm13.138,0h10.5l-5.253-9.188Zm18.387-9.188-5.252,9.188h10.5Z"
                                     transform="translate(-376.344 -40)" />
-                                <text id="Waxom" class="cls-2" x="182.656" y="40">Waxom</text>
+                                <text class="cls-2" x="182.656" y="40">Waxom</text>
                             </svg>
                         </div>
                         <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
@@ -490,9 +669,9 @@
         <div class="contacts container" id="footer">
             <div class="support">
                 <p>Copyright © 2015 <a href="#" class="link">Waxom </a></p> |
-                <a href="#" class="link">Privacy Policy </a> |
-                <a href="#" class="link">FAQ </a> |
-                <a href="#" class="link">Support</a>
+                <a href="#" class="link separate">Privacy Policy </a> |
+                <a href="#" class="link separate">FAQ </a> |
+                <a href="#" class="link separate">Support</a>
             </div>
             <div class="designed">
                 <span>Designed by <a href="#" class="link">ThemeFire</a></span>
@@ -502,11 +681,5 @@
     </footer>
 
 </body>
-
-<script>
-    document.querySelector(".poster").onclick = function () {
-        this.style.display = "none";
-    }
-</script>
 
 </html>

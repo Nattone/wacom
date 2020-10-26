@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('raleway/raleway-extrabold.eot');
+  src: local('☺'), url('raleway/raleway-extrabold.woff') format('woff'), url('raleway/raleway-extrabold.ttf') format('truetype'), url('raleway/raleway-extrabold.svg') format('svg');
+  font-weight: 800; /*extra-bold*/
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('raleway/raleway-medium.eot');
+  src: local('☺'), url('raleway/raleway-medium.woff') format('woff'), url('raleway/raleway-medium.ttf') format('truetype'), url('raleway/raleway-medium.svg') format('svg');
+  font-weight: 500; /*medium*/
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('raleway/raleway-regular.eot');
+  src: local('☺'), url('raleway/raleway-regular.woff') format('woff'), url('raleway/raleway-regular.ttf') format('truetype'), url('raleway/raleway-regular.svg') format('svg');
+  font-weight: 400; /*regular*/
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('raleway/raleway-semibold.eot');
+  src: local('☺'), url('raleway/raleway-semibold.woff') format('woff'), url('raleway/raleway-semibold.ttf') format('truetype'), url('raleway/raleway-semibold.svg') format('svg');
+  font-weight: 600; /*semi-bold*/
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('montserrat/montserrat-light.eot');
+  src: local('☺'), url('montserrat/montserrat-light.woff') format('woff'), url('montserrat/montserrat-light.ttf') format('truetype'), url('montserrat/montserrat-light.svg') format('svg');
+  font-weight: 300; /*light*/
+  font-style: normal;
+}
+
+
+
+
+
+
+
