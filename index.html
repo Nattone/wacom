@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fonts/fonts.css">
     <link rel="shortcut icon" href="img/favicon.svg" type="image/svg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -679,28 +681,5 @@
     </footer>
 
 </body>
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script>
-    document.querySelector(".poster").onclick = function () {
-        this.style.display = "none";
-    }
-</script>
-<script>
-    $(document).ready(function () {
-        $(".switch").click(function () {
-            $(this).toggleClass("selected");
-        });
-    });
-</script>
-
-<script>
-    $(document).ready(function () {
-        $(".mobile").click(function () {
-            $(".header .wrapper").toggleClass("open");
-        });
-    });
-</script>
 
 </html>
