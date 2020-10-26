@@ -1222,9 +1222,6 @@ button:focus {
   .counter .item svg {
     margin-bottom: 20px;
   }
-  .counter .item:after {
-    display: none;
-  }
   .cards .item {
     width: 50%;
   }
@@ -1343,6 +1340,9 @@ button:focus {
   }
   .header .container {
     position: relative;
+  }
+  .header .container .item:after {
+    display: none;
   }
   .header .logo {
     margin: 0;

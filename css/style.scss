@@ -1173,9 +1173,6 @@ button:focus {
     .counter .item svg {
         margin-bottom: 20px;
     }
-    .counter .item:after {
-        display: none;
-    }
 
     .cards .item {
         width: 50%;
@@ -1304,6 +1301,10 @@ button:focus {
 
         .container {
             position: relative;
+
+            .item:after {
+                display: none;
+            }
         }
 
         .logo {
@@ -1399,13 +1400,16 @@ button:focus {
         display: none;
     }
 
-    .counter .list {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .counter .item {
-        width: 50%;
-        margin-bottom: 20px;
+    .counter {
+        .list {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .item {
+            width: 50%;
+            margin-bottom: 20px;
+        }
     }
 
     .cards .item {
