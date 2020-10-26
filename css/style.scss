@@ -1115,9 +1115,15 @@ button:focus {
 
         .link {
             color: #c7b299;
+            display: inline-block;
+            margin-right: 10px;
 
             &:hover {
                 color: #fff;
+            }
+
+            &.separate {
+                margin-left: 10px;
             }
         }
 
@@ -1132,7 +1138,7 @@ button:focus {
             margin-right: 20px;
         }
         .tools svg {
-            margin-left: 20px;
+            margin-left: 10px;
         }
     }
     .slider .controls {
@@ -1197,6 +1203,23 @@ button:focus {
         .heading {
             margin-bottom: 20px;
         }
+    }
+    
+}
+@media (max-width: 800px) {
+    .footer .contacts {
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .support {
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+    .tools {
+        display: none;
     }
 }
 @media (max-width: 767px) {
@@ -1312,10 +1335,6 @@ button:focus {
             margin-right: 0;
             display: block;
             font-size: 20px;
-        }
-
-        .tools {
-            display: none;
         }
     }
 
@@ -1455,5 +1474,9 @@ button:focus {
         .item {
             width: 80%;
         }
+    }
+
+    .footer .contacts .designed {
+        flex-direction: column;
     }
 }

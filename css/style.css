@@ -1172,10 +1172,16 @@ button:focus {
 
 .footer .contacts .link {
   color: #c7b299;
+  display: inline-block;
+  margin-right: 10px;
 }
 
 .footer .contacts .link:hover {
   color: #fff;
+}
+
+.footer .contacts .link.separate {
+  margin-left: 10px;
 }
 
 @media (max-width: 1199px) {
@@ -1183,7 +1189,7 @@ button:focus {
     margin-right: 20px;
   }
   .header .tools svg {
-    margin-left: 20px;
+    margin-left: 10px;
   }
   .slider .controls {
     -webkit-box-sizing: border-box;
@@ -1239,6 +1245,27 @@ button:focus {
   }
   .commercial .heading {
     margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer .contacts {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer .contacts .support {
+    margin-bottom: 10px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .tools {
+    display: none;
   }
 }
 
@@ -1352,9 +1379,6 @@ button:focus {
     display: block;
     font-size: 20px;
   }
-  .header .tools {
-    display: none;
-  }
   .slider {
     display: none;
   }
@@ -1466,6 +1490,12 @@ button:focus {
   }
   .partners .item {
     width: 80%;
+  }
+  .footer .contacts .designed {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 /*# sourceMappingURL=style.css.map */
