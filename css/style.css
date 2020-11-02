@@ -71,7 +71,7 @@ button:focus {
   transition: background-color .3s ease;
 }
 
-.btn:hover, .btn:focus {
+.btn:hover, .btn:focus, .btn.selected {
   cursor: pointer;
   background-color: #736357;
 }
@@ -219,7 +219,7 @@ button:focus {
   margin-right: 30px;
 }
 
-.header .menu .link:hover, .header .menu .link:focus {
+.header .menu .link:hover, .header .menu .link:focus, .header .menu .link.selected {
   color: #c7b299;
 }
 

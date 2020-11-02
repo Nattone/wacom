@@ -67,7 +67,8 @@ button:focus {
     transition: background-color .3s ease;
 
     &:hover,
-    &:focus {
+    &:focus,
+    &.selected {
         cursor: pointer;
         background-color: #736357;
     }
@@ -202,7 +203,8 @@ button:focus {
         margin-right: 30px;
 
         &:hover,
-        &:focus {
+        &:focus,
+        &.selected {
             color: #c7b299;
         }
     }
@@ -1405,7 +1407,7 @@ button:focus {
             flex-wrap: wrap;
             justify-content: center;
         }
-        
+
         .item {
             width: 50%;
             margin-bottom: 20px;
